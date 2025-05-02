@@ -24,3 +24,8 @@ fun evalWithLogging(e: Expr): Int =
             left + right //será devolvida se e for do tipo Sum.
         } else -> throw IllegalArgumentException("Unknown expression")
     }
+
+fun testsEnumsAndWhen() {
+    println("===Enums and When===")
+    println(evalWithLogging(Sum(Sum(Num(1), Num(2)), Num(4))))
+}
