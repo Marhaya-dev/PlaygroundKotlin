@@ -1,9 +1,10 @@
-package org.example.kotlinBook.basicKotlin.exceptions
+package kotlin_book.c2_basic_kotlin.exceptions
 
 import java.io.BufferedReader
 import java.io.StringReader
 
 fun testExceptions() {
+    println("===Exceptions===")
     println(validatePercentage(4))
     val readerNumber = BufferedReader(StringReader("42"))
     val readerNotNumber = BufferedReader(StringReader("Not a number"))

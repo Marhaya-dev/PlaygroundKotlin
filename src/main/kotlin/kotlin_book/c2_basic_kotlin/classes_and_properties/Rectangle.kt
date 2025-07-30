@@ -1,5 +1,5 @@
 //Declaração de classe e de uma função em um pacote
-package org.example.kotlinBook.basicKotlin.classesAndProperties //Declaração do pacote
+package kotlin_book.c2_basic_kotlin.classes_and_properties //Declaração do pacote
 
 import java.util.Random //Importa a classe da biblioteca-padrão de Java
 

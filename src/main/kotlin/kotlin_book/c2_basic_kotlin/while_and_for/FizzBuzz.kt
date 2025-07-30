@@ -1,4 +1,4 @@
-package org.example.kotlinBook.basicKotlin.whileAndFor
+package kotlin_book.c2_basic_kotlin.while_and_for
 
 import java.util.TreeMap
 import kotlin.collections.iterator
