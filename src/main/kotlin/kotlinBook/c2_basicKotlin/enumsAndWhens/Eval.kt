@@ -1,4 +1,4 @@
-package org.example.basicKotlin.enumsAndWhens
+package org.example.kotlinBook.basicKotlin.enumsAndWhens
 
 //Usando when no lugar de ifs
 fun eval(e: Expr): Int =

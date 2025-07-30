@@ -1,6 +1,7 @@
-package org.example.basicKotlin.whileAndFor
+package org.example.kotlinBook.basicKotlin.whileAndFor
 
 import java.util.TreeMap
+import kotlin.collections.iterator
 
 fun fizzBuzz(i: Int) = when {
     i % 15 == 0 -> "FizzBuzz"

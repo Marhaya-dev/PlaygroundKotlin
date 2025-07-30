@@ -1,4 +1,4 @@
-package org.example.basicKotlin.exceptions
+package org.example.kotlinBook.basicKotlin.exceptions
 
 import java.io.BufferedReader
 import java.io.StringReader

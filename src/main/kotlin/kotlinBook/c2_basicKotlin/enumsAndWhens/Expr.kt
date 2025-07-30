@@ -1,4 +1,4 @@
-package org.example.basicKotlin.enumsAndWhens
+package org.example.kotlinBook.basicKotlin.enumsAndWhens
 
 interface Expr
 class Num(val value: Int) : Expr //A classe implemnta a interface Expr
