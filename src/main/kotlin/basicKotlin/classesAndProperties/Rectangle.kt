@@ -5,7 +5,7 @@ import java.util.Random //Importa a classe da biblioteca-padrão de Java
 
 class Rectangle(val height: Int, val width: Int) {
     val isSquare: Boolean
-        get() = height == width //getter personalizado - o valor é calculado sempre a prop é acessada
+        get() = height == width //getter personalizado - o valor é calculado sempre que a prop é acessada
 }
 
 fun createRandomRectangle(): Rectangle {
