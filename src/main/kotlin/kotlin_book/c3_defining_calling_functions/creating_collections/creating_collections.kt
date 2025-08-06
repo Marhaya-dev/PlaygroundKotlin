@@ -12,7 +12,7 @@ fun testCreatingCollections() {
     println("List: $list")
 
     // Creating a map
-    val map = hashMapOf("1" to "one", "7" to "seven", "53" to "fifty-three")
+    val map = mapOf("1" to "one", "7" to "seven", "53" to "fifty-three")
     println("Map: $map")
 
     printCollectionTypes(set, list, map)
@@ -30,7 +30,16 @@ fun printCollectionTypes(set: Set<*>, list: List<*>, map: Map<*, *>) {
 fun testListAndSetOperations() {
     println("===Operações com List e Set===")
     val strings = listOf("first", "second", "fourteenth")
-    println("Last value: ${strings.last()}")
+    println("Last value: ${strings.last()}") //função de extensão
     val numbers = setOf(1, 14, 2)
-    println("Max value: ${numbers.max()}")
+    println("Max value: ${numbers.max()}") //função de extensão
 }
+
+fun infixFunction() {
+    println("===Chamadas infixas===")
+    val map = mapOf("1" to ("one"), "7" to "seven", "53" to "fifty-three")
+    println("Map: $map")
+}
+
+//Versão simplificada da declaração da função de extensão to()
+infix fun Any.to(other: Any) = Pair(this, other)
